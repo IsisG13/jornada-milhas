@@ -10,6 +10,8 @@ import { CardComponent } from './sheared/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { HomeComponent } from './pages/home/home.component';
+import { ContainerComponent } from './sheared/container/container.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { MatButtonModule } from '@angular/material/button';
     HeaderComponent,
     FooterComponent,
     BannerComponent,
-    CardComponent
+    CardComponent,
+    ContainerComponent,
+    HomeComponent
   ],
 
   imports: [
