@@ -7,6 +7,10 @@ import { HeaderComponent } from './sheared/header/header.component';
 import { FooterComponent } from './sheared/footer/footer.component';
 import { BannerComponent } from './sheared/banner/banner.component';
 import { CardComponent } from './sheared/card/card.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +20,17 @@ import { CardComponent } from './sheared/card/card.component';
     BannerComponent,
     CardComponent
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
+
+
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
