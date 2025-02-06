@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ModalComponent } from '../modal/modal.component';
-import { FormBuscaService } from 'src/app/core/servicos/form-busca.service';
+import { FormBuscaService } from 'src/app/core/servicos/formBusca/form-busca.service';
 
 @Component({
   selector: 'app-form-busca',
