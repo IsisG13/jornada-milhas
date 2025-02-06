@@ -1,10 +1,10 @@
 <mat-card class="depoimento">
   <mat-card-content>
-    <img src="/assets/images/avatar3.png" alt="Avatar da pessoa autora do depoimento">
+    <img src="{{ depoimentos.avatar }}" alt="Avatar {{ depoimentos.autor }}">
     <ul>
-      <li>{{ depoimento }}</li>
+      <li>{{ depoimentos.texto }}</li>
       <li>
-        <strong>{{ autoria }}</strong>
+        <strong>{{ depoimentos.autor }}</strong>
       </li>
     </ul>
   </mat-card-content>
