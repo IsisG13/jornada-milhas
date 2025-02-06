@@ -14,7 +14,6 @@ export interface Depoimentos {
 
 export interface UnidadeFederativa {
     id: number
-    destino: string
-    imagem: string
-    preco: number
+    nome: string
+    sigla: string
 }
