@@ -26,6 +26,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { ModalComponent } from './sheared/modal/modal.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+
 import { BotaoControleComponent } from './sheared/botao-controle/botao-controle.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
@@ -69,7 +70,7 @@ import { DepoimentosComponent } from './pages/home/depoimentos/depoimentos.compo
     MatDialogModule,
     HttpClientModule,
     ReactiveFormsModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
   ],
 
   providers: [],

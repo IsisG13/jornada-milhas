@@ -37,8 +37,9 @@
     <!-- Origem -->
     <div class="flex-container">
       <app-dropdown-uf
-        lugar="Origem"
-        iconPrefix="flight_takeoff"
+        label="Origem"
+        iconePrefixo="flight_takeoff"
+        [control]="formBuscaService.obterControle('origem')"
       ></app-dropdown-uf>
 
       <button mat-icon-button>
@@ -47,8 +48,10 @@
 
       <!-- Destino -->
       <app-dropdown-uf
-        lugar="Destino"
-        iconPrefix="flight_land"
+        label="Destino"
+        iconePrefixo="flight_land"
+        [control]="formBuscaService.obterControle('destino')"  
+
       ></app-dropdown-uf>
 
       <!-- Data-ida -->
