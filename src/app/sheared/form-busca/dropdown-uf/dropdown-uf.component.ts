@@ -1,15 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
-import { map, Observable, startWith } from 'rxjs';
+import { Observable, map, startWith } from 'rxjs';
 import { UnidadeFederativaService } from 'src/app/core/servicos/unidadeFederativa/unidade-federativa.service';
 import { UnidadeFederativa } from 'src/app/core/types/types';
 
 @Component({
   selector: 'app-dropdown-uf',
   templateUrl: './dropdown-uf.component.html',
-  styleUrls: ['./dropdown-uf.component.scss'],
+  styleUrls: ['./dropdown-uf.component.scss']
 })
-
 export class DropdownUfComponent implements OnInit {
   @Input() label: string = '';
   @Input() iconePrefixo: string = '';
